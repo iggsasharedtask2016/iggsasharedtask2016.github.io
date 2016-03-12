@@ -13,6 +13,7 @@
 &lt;li&gt;The annnotation schema was revised to make the task more accessible. This involved excluding from consideration some linguistic aspects that we felt were too complex to solve as part of this shared task (e.g. sub-lexical analysis in compound words and dealing with so-called polar&amp;nbsp;facts).&lt;/li&gt;
 &lt;li&gt;Training data will be available, consisting of an adjudicated version of the 2014 task&amp;#8217;s test data. Thus, unlike in 2014, participants will be able to employ supervised learning for system&amp;nbsp;implementation. &lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Annotation Example" src="http://iggsasharedtask2016.github.io/images/annoexample.png" /&gt;&lt;/p&gt;
 &lt;p&gt;We will provide more details soon. Please stay&amp;nbsp;tuned!&lt;/p&gt;
 &lt;h3&gt;Organizers&lt;/h3&gt;
 &lt;ul&gt;
