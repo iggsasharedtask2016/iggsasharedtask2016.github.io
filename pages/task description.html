@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>Task&nbsp;description - Iggsa Shared Task 2016</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="/pages/task description.html">
+
+        <meta name="author" content="Josef Ruppenhofer" />
+        <meta name="description" content="Description of the IGGSA 2016 Shared Task" />
+
+    <meta property="og:site_name" content="Iggsa Shared Task 2016" />
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Task description"/>
+    <meta property="og:url" content="/pages/task description.html"/>
+    <meta property="og:description" content="Description of the IGGSA 2016 Shared Task" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="/theme/css/pygments/native.css" rel="stylesheet">
+        <link href="/theme/css/typogrify.css" rel="stylesheet">
+    <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
+        <link href="/static/custom.css" rel="stylesheet">
+
+
+
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand">
+Iggsa Shared Task 2016            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li class="active"><a href="/pages/task description.html">
+                             Task&nbsp;description
+                          </a></li>
+                         <li><a href="/pages/tools.html">
+                             Tools
+                          </a></li>
+                         <li><a href="/pages/timeline.html">
+                             Timeline
+                          </a></li>
+                        <li >
+                            <a href="/category/general.html">General</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+    <section id="content" class="body">
+        <h1 class="entry-title">Task&nbsp;description</h1>
+        
+        <div class="entry-content">
+            <div class="toc">
+<ul>
+<li><a href="#data">Data</a></li>
+<li><a href="#annotations">Annotations</a></li>
+<li><a href="#subtasks-and-evaluation">Subtasks and&nbsp;Evaluation</a></li>
+<li><a href="#formats">Formats</a></li>
+<li><a href="#schedule">Schedule</a></li>
+<li><a href="#acknowledgment">Acknowledgment</a></li>
+</ul>
+</div>
+<h3 id="data">Data</h3>
+<p>The data that we use comes from German-language speeches of the Swiss parliament (Bundesversammlung). It was chosen&nbsp;because</p>
+<ul>
+<li>the source data is open to the public and allows for free distribution with the&nbsp;annotations</li>
+<li>the text allows for annotation of multiple sources and&nbsp;targets</li>
+<li>the text meets the research interests of several <span class="caps">IGGSA</span>-members, i.e. supports collaborations with political scientists and researches in digital&nbsp;humanities.</li>
+</ul>
+<p>In selecting the data we took steps to minimize, or at least, mark any Swiss German idiosyncrasies. The selected speeches cover several different topics (foreign policy, book price controls, &#8230;) so as to give better coverage of the variety of ways in which sources and targets might be&nbsp;expressed.</p>
+<p>Training data will be release as per the schedule&nbsp;below.</p>
+<h3 id="annotations">Annotations</h3>
+<p>Matching the general task we try to solve, the annotation scheme consists of three major types of labels:
+Sources, Targets, and SubjectiveExpressions. These are inter-related by way of annotation frames that are centered on the Subjective Expressions. In addition, the three label types allow for several kinds of additional markings (flags), which indicate additional attributes of the&nbsp;labels.</p>
+<p><img alt="Annotation Example" src="http://iggsasharedtask2016.github.io/images/annoexample.png" /></p>
+<p>The annotations represent an adjudicated version of the 2014 test data. The guidelines will be linked here&nbsp;shortly.</p>
+<p>Note that participating groups can use additional suitable training data as well as any kind of additional tools such as parsers etc. to develop their own&nbsp;systems.</p>
+<h3 id="subtasks-and-evaluation">Subtasks and&nbsp;Evaluation</h3>
+<p>We offer three&nbsp;subtasks:</p>
+<pre><code>* Full task Identification of subjective expressions with their respective sources and targets
+* Subtask a) Participants are given the subjective expressions and are only asked to identify opinion sources.
+* Subtask b) Participants are given the subjective expressions and are only asked to identify opinion targets.
+</code></pre>
+<h3 id="formats">Formats</h3>
+<p>The <span class="caps">STEPS</span> data set has undergone the following pre-processing: sentence segmentation and tokenization using OpenNLP, lemmatization with the TreeTagger (Schmid, 1994), constituency parsing using the Berkeley parser (Petrov and Klein, 2007), and conversion of the parse trees into TigerXML-Format using <span class="caps">TIGER</span>-tools (Lezius, 2002). For the annotation we used the Salto-Tool (Burchardt et al. 2006). The existing Salsa <span class="caps">API</span> can be used for <span class="caps">XML</span>-files in this&nbsp;format.</p>
+<p>For your convenience, <em>all</em> data from this Maintask has been preprocessed with tokenisation, part-of-speech tagging and syntactic analysis! But participants are of course free to do their own&nbsp;pre-processing.</p>
+<h3 id="schedule">Schedule</h3>
+<p><html>
+<table cellpadding="5" cellspacing="5"  width="70%">
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>March</td>
+    <td></td>
+    <td>Call for Participation</td>
+  </tr>
+  <tr>
+    <td>Start of April</td>
+    <td></td>
+    <td>Release of training data</td>
+  </tr>
+  <tr>
+    <td>Start of August</td>
+    <td></td>
+    <td>Release of test data</td>
+  </tr>
+<tr>
+    <td>Middle of August</td>
+    <td></td>
+    <td>System runs submitted</td>
+  </tr>
+<tr>
+    <td>End of August</td>
+    <td></td>
+    <td>Notification of results</td>
+  </tr></p>
+<tr>
+    <td>Middle of September</td>
+    <td></td>
+    <td>Drafts of workshop papers due</td>
+  </tr>
+
+<tr>
+    <td>September 22</td>
+    <td></td>
+    <td>Workshop @ <span class="caps">KONVENS</span> 2016 in Bochum</td>
+  </tr>
+
+<tr>
+    <td>End of October</td>
+    <td></td>
+    <td>Publication of final workshop papers</td>
+  </tr>
+
+</table>
+
+<h3 id="acknowledgment">Acknowledgment</h3>
+<p>We are happy to acknowledge the finanical support that the <span class="caps">GSCL</span> (German Society for Computational Linguistics) has granted us 
+for the annotation of the training&nbsp;data.</p>
+        </div>
+    </section>
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+
+
+
+
+
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="https://sites.google.com/site/iggsahome/" target="_blank">
+                IGGSA
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://sites.google.com/site/iggsasharedtask/task-1" target="_blank">
+                STEPS 2014
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="http://www.linguistics.rub.de/konvens16/" target="_blank">
+                Konvens2016
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="http://getpelican.com/" target="_blank">
+                Pelican
+            </a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2016 IGGSA
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="/theme/js/respond.min.js"></script>
+
+
+</body>
+</html>
