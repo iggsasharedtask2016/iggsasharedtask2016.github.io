@@ -108,7 +108,9 @@ Iggsa Shared Task 2016            </a>
 We also provide a <a href="http://iggsasharedtask2016.github.io/data/shata14_adjudicated_preproc.tgz">preprocessed version</a> of this&nbsp;data.</p>
 <p>The <strong><span style="color:red">test data</span></strong> for the shared task is now also available for download. <br/>
 We provide two files. In the file for the <a href="http://iggsasharedtask2016.github.io/data/steps2016-testdaten.UTF8.keineAnnotation.xml">full task</a>,  no gold information is provided.<br/>
-In the file for the <a href="http://iggsasharedtask2016.github.io/data/steps2016-testdaten.UTF8.ohneFEs.xml">subtasks</a>, we have pre-identified the subjective&nbsp;expressions.</p>
+In the file for the <a href="http://iggsasharedtask2016.github.io/data/steps2016-testdaten.UTF8.ohneFEs.xml">subtasks</a>, we have pre-identified the subjective expressions.<br/></p>
+<p>Note that an updated version of the Scorer was released along with the data. The companion Readme was also updated.
+The links below already point to the newest versions of these&nbsp;files.</p>
 <h3 id="annotations">Annotations</h3>
 <p>Matching the general task we try to solve, the annotation scheme consists of three major types of labels:
 Sources, Targets, and SubjectiveExpressions. These are inter-related by way of annotation frames that are centered on the Subjective Expressions. In addition, the three label types allow for several kinds of additional markings (flags), which indicate additional attributes of the&nbsp;labels.</p>
@@ -123,8 +125,6 @@ Sources, Targets, and SubjectiveExpressions. These are inter-related by way of a
 </code></pre>
 <h3 id="scorer">Scorer</h3>
 <p>The evaluation tool for the Shared Task is available for <a href="http://iggsasharedtask2016.github.io/data/IGGSA-STEPS_eval2016.jar">download</a> as a Java runnable jar file. <br/> Documentation for the tool is provided <a href="http://iggsasharedtask2016.github.io/data/Readme_runnablejar.txt">here</a>. <br/></p>
-<p>Note that an updated version of the Scorer was released along with the data. The companion Readme was also updated.
-The above links alread points to the newest&nbsp;versions.</p>
 <h3 id="formats">Formats</h3>
 <p>The <span class="caps">STEPS</span> data set has undergone the following pre-processing: sentence segmentation and tokenization using OpenNLP, lemmatization with the TreeTagger (Schmid, 1994), constituency parsing using the Berkeley parser (Petrov and Klein, 2007), and conversion of the parse trees into TigerXML-Format using <span class="caps">TIGER</span>-tools (Lezius, 2002). For the annotation we used the Salto-Tool (Burchardt et al. 2006). The existing Salsa <span class="caps">API</span> can be used for <span class="caps">XML</span>-files in this&nbsp;format.</p>
 <p>For your convenience, <em>all</em> data from this Maintask has been preprocessed with tokenisation, part-of-speech tagging and syntactic analysis! But participants are of course free to do their own&nbsp;pre-processing.</p>
