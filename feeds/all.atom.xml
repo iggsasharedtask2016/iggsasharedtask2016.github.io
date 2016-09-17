@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Iggsa Shared Task 2016</title><link href="http://iggsasharedtask2016.github.io/" rel="alternate"></link><link href="http://iggsasharedtask2016.github.io/feeds/all.atom.xml" rel="self"></link><id>http://iggsasharedtask2016.github.io/</id><updated>2016-03-11T14:32:00+01:00</updated><entry><title>Welcome</title><link href="http://iggsasharedtask2016.github.io/welcome.html" rel="alternate"></link><published>2016-03-11T14:32:00+01:00</published><author><name>Josef Ruppenhofer</name></author><id>tag:iggsasharedtask2016.github.io,2016-03-11:welcome.html</id><summary type="html">&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The 2016 Shared Task has run: to learn more about the results, join us at our &lt;strong&gt;&lt;span style="color:blue"&gt;&lt;a href="http://iggsasharedtask2016.github.io/Workshop.html"&gt;Workshop&lt;/a&gt;&lt;/span&gt;&lt;/strong&gt; at &lt;span class="caps"&gt;KONVENS&lt;/span&gt; on Thursday, September&amp;nbsp;22nd.&lt;/p&gt;
 &lt;p&gt;Accurate opinion mining requires the exact identification of the sources and targets of opinions. To evaluate diverse tools, the research community relies on the existence of a gold standard corpus addressing this&amp;nbsp;need. &lt;/p&gt;
 &lt;p&gt;The 2014 &lt;a href="https://sites.google.com/site/iggsasharedtask/"&gt;Gestalt&lt;/a&gt; Shared Task organized by the  Interest Group on German Sentiment Analysis (&lt;a href="https://sites.google.com/site/iggsahome/"&gt;&lt;span class="caps"&gt;IGGSA&lt;/span&gt;&lt;/a&gt;) was a first step towards providing such data for German to the research community in the context of a shared&amp;nbsp;task. &lt;/p&gt;
 &lt;p&gt;In 2014 &lt;span class="caps"&gt;IGGSA&lt;/span&gt; offered two different shared tasks. The &lt;a href="https://sites.google.com/site/iggsasharedtask/task-1"&gt;&lt;span class="caps"&gt;STEPS&lt;/span&gt;&lt;/a&gt; shared task on Source, Subjective Expression and Target Extraction from Political Speeches will see a second iteration in 2016 with some significant modifications so as to lower the barrier to entry for participating&amp;nbsp;teams. &lt;/p&gt;
-&lt;p&gt;The second iteration of &lt;span class="caps"&gt;STEPS&lt;/span&gt; will maintain continuity with the first iteration in the following key&amp;nbsp;respects:&lt;/p&gt;
+&lt;p&gt;The second iteration of &lt;span class="caps"&gt;STEPS&lt;/span&gt; maintained continuity with the first iteration in the following key&amp;nbsp;respects:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;It will again be concerned with the extraction of opinion roles/entities, that is, Sources and&amp;nbsp;Targets. &lt;/li&gt;
-&lt;li&gt;The textual basis will continue to be political speeches from the Swiss&amp;nbsp;parliament.&lt;/li&gt;
+&lt;li&gt;It was again concerned with the extraction of opinion roles/entities, that is, Sources and&amp;nbsp;Targets. &lt;/li&gt;
+&lt;li&gt;The textual basis continued to be political speeches from the Swiss&amp;nbsp;parliament.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The main differences to the first iteration will lie in the following&amp;nbsp;areas:&lt;/p&gt;
+&lt;p&gt;The main differences to the first iteration lay in the following&amp;nbsp;areas:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The annnotation schema was revised to make the task more accessible. This involved excluding from consideration some linguistic aspects that we felt were too complex to solve as part of this shared task (e.g. sub-lexical analysis in compound words and dealing with so-called polar&amp;nbsp;facts).&lt;/li&gt;
-&lt;li&gt;Training data will be available, consisting of an adjudicated version of the 2014 task&amp;#8217;s test data. Thus, unlike in 2014, participants will be able to employ supervised learning for system&amp;nbsp;implementation. &lt;/li&gt;
+&lt;li&gt;Training data was available, consisting of an adjudicated version of the 2014 task&amp;#8217;s test data. Thus, unlike in 2014, participants were able to employ supervised learning for system&amp;nbsp;implementation. &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img alt="Annotation Example" src="http://iggsasharedtask2016.github.io/images/annoexample.png" /&gt;&lt;/p&gt;
-&lt;p&gt;We will provide more details soon. Please stay&amp;nbsp;tuned!&lt;/p&gt;
 &lt;h3 id="organizers"&gt;Organizers&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.uni-hildesheim.de/ruppenhofer/"&gt;Josef&amp;nbsp;Ruppenhofer&lt;/a&gt;&lt;/li&gt;
